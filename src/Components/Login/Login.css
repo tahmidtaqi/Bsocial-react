@@ -1,0 +1,87 @@
+body,
+html {
+    height: 100vh;
+    margin: 0;
+}
+
+.login-page {
+    background-image: linear-gradient(rgba(0, 20, 10, 0.3), rgba(0, 20, 10, 0.3)), url(../../images/background/2.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .login-page {
+    background-image: url(../../images/background/3.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+.login-area {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.submit-area {
+    padding: 10px 350px !important;
+}
+
+.login-button {
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 60px;
+    /* background: linear-gradient(45deg, rgb(13, 98, 138), rgb(0, 168, 184));
+    transition: 1s ease-in-out; */
+    background: linear-gradient(to right, rgb(1, 34, 21), rgb(7, 221, 114));
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: 2s ease-in-out;
+}
+
+.login-button:hover {
+    /* background: linear-gradient(45deg, rgb(0, 168, 184), rgb(13, 98, 138));
+    transition: 1s ease-in-out; */
+    background: linear-gradient(to right, rgb(1, 34, 21), rgb(7, 221, 114));
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: 2s ease-in-out;
+}
+
+.login-button:focus {
+    outline: none;
+}
+
+.login-page-lower-area {
+    margin-top: 50px;
+}
+
+.semi-transparent-button {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 5px 20px;
+    margin: 0px 30px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+}
+
+.semi-transparent-button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.signup-paragraph a {
+    text-decoration: none !important;
+}
+
+.signup-paragraph a:hover {
+    color: rgb(1, 217, 255);
+}
